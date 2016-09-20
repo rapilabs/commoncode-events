@@ -1,14 +1,16 @@
 <html>
 <head>
-  <link ref="stylesheet" src="/style.css"/>
+  <link rel="stylesheet" href="/static/css/layout.css" />
 </head>
 <body>
   <h1>Upcoming events at Common Code!</h1>
-  {% for event in events %}
-  <h2>{{ event.name }}</h2>
-  <p>{{ event.when }}</p>
-  <p>{{ event.description|safe }}</p>
-  {% endfor %}
+  <div class="events">
+   {% for event in events %}
+   <h2>{{ event.name }}</h2>
+   <p>{{ event.when }}</p>
+   <p>{{ event.description|safe }}</p>
+   {% endfor %}
+  </div>
 </body>
 </html>
 

@@ -1,0 +1,30 @@
+
+
+body {
+  background-color: white;
+  color: #282626;
+  font-family: Helvetica, Arial, sans-serif; /*AvenirNext-Medium proxima-nova,Helvetica,Arial,sans-serif*/
+  margin: 0;
+}
+
+h1 {
+  background-color: #282626;
+  color: #eb005a;
+  font-size: 42px;
+  padding: 50px;
+  font-weight: 300;
+  text-align: center;
+  background-image: url(/static/img/common-large.svg);
+  background-position: 50px center;
+  background-repeat: no-repeat;
+}
+
+.events {
+  margin: 50px;
+}
+
+h2 {
+}
+
+p {
+}
