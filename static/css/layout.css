@@ -28,7 +28,8 @@ b {
 }
 
 p {
-  margin: 1em 0;
+  margin: 2em 0;
+  line-height: 1.5em
 }
 
 ul {
